@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/features/search/repository/search_repository.dart';
-import 'package:netflix_clone/models/search_model.dart';
+import 'package:movieapp/features/search/model/search_model.dart';
+import 'package:movieapp/features/search/repository/search_repository.dart';
 
 class SearchViewModel extends ChangeNotifier {
   SearchRepository _repository = SearchRepository();

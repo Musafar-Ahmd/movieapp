@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:netflix_clone/features/home/view_model/home_view_model.dart';
-import 'package:netflix_clone/features/onboarding/splash/view/splah.dart';
-import 'package:netflix_clone/features/search/view_model/search_view_model.dart';
+import 'package:movieapp/features/home/view_model/home_view_model.dart';
+import 'package:movieapp/features/onboarding/splash/view/splah.dart';
+import 'package:movieapp/features/search/view_model/search_view_model.dart';
 import 'package:provider/provider.dart';
+
+import 'features/home/view_model/home_view_model.dart';
+import 'features/search/view_model/search_view_model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +43,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)
               .copyWith(background: Colors.black),
         ),
-        home: const SplashScreen(),
+        home:  SplashScreen(),
       ),
     );
   }

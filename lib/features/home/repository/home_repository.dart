@@ -1,14 +1,12 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:netflix_clone/common/app_urls.dart';
 import 'package:http/http.dart' as http;
-import 'package:netflix_clone/models/movie_detail_model.dart';
-import 'package:netflix_clone/models/movie_model.dart';
-import 'package:netflix_clone/models/movie_recommendation_mode.dart';
-import 'package:netflix_clone/models/tv_series_model.dart';
-
-
+import 'package:movieapp/common/app_urls.dart';
+import 'package:movieapp/features/home/model/movie_detail_model.dart';
+import 'package:movieapp/features/home/model/movie_model.dart';
+import 'package:movieapp/features/home/model/movie_recommendation_mode.dart';
+import 'package:movieapp/features/home/model/tv_series_model.dart';
 
 late String endPoint;
 class HomeRepository {

@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/common/utils.dart';
-import 'package:movie_app/features/home/view_model/home_view_model.dart';
+import 'package:movieapp/common/utils.dart';
+import 'package:movieapp/features/home/view_model/home_view_model.dart';
 import 'package:provider/provider.dart';
 
 class MovieDetailScreen extends StatefulWidget {

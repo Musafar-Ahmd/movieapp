@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/features/home/repository/home_repository.dart';
-import 'package:netflix_clone/models/movie_model.dart';
-import 'package:netflix_clone/models/movie_recommendation_mode.dart';
-import 'package:netflix_clone/models/tv_series_model.dart';
+import 'package:movieapp/features/home/model/movie_detail_model.dart';
+import 'package:movieapp/features/home/model/movie_model.dart';
+import 'package:movieapp/features/home/model/movie_recommendation_mode.dart';
+import 'package:movieapp/features/home/model/tv_series_model.dart';
+import 'package:movieapp/features/home/repository/home_repository.dart';
 
-import '../../../models/movie_detail_model.dart';
 
 class HomeViewModel extends ChangeNotifier {
   final HomeRepository _repository = HomeRepository();
@@ -14,6 +14,8 @@ class HomeViewModel extends ChangeNotifier {
   TvSeriesModel? topRatedModel;
   MovieRecommendationsModel? recommendationsModel;
   MovieDetailModel? movieDetailModel;
+
+  
   Future upcomingMovies() async {
     await _repository.getUpcomingMovies().then((value) {
       upcomingModel = value;

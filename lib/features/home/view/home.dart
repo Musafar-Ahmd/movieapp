@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/features/home/view_model/home_view_model.dart';
-import 'package:netflix_clone/features/search/view/search.dart';
-import 'package:netflix_clone/widgets/custom_carousel.dart';
-import 'package:netflix_clone/widgets/upcoming_movie_card_widget.dart';
+import 'package:movieapp/features/home/view_model/home_view_model.dart';
+import 'package:movieapp/features/search/view/search.dart';
+import 'package:movieapp/widgets/custom_carousel.dart';
+import 'package:movieapp/widgets/upcoming_movie_card_widget.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {

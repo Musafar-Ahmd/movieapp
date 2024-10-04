@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/common/utils.dart';
+import 'package:movieapp/common/utils.dart';
 
 class LandingCard extends StatelessWidget {
   const LandingCard({super.key, required this.image, required this.name});

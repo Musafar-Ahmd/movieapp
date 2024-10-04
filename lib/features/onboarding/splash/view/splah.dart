@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:netflix_clone/features/onboarding/bottom_bar/view/bottom_bar.dart';
+import 'package:movieapp/features/onboarding/bottom_bar/view/bottom_bar.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => const BottomNavBar(),
+          builder: (context) =>  BottomNavBar(),
         ),
       );
     });

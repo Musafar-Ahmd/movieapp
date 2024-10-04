@@ -1,8 +1,9 @@
-import 'package:netflix_clone/common/app_urls.dart';
-import 'package:netflix_clone/models/search_model.dart';
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart' as http;
+
+import '../../../common/app_urls.dart';
+import '../model/search_model.dart';
 
 late String endPoint;
 

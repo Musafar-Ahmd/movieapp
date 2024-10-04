@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/widgets/coming_soon_movie_widget.dart';
+import 'package:movieapp/widgets/coming_soon_movie_widget.dart';
 
 class MoreScreen extends StatefulWidget {
   const MoreScreen({super.key});
